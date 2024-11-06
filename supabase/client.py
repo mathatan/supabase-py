@@ -1,4 +1,4 @@
-from gotrue.errors import (
+from supabase_auth.errors import (
     AuthApiError,
     AuthError,
     AuthImplicitGrantRedirectError,

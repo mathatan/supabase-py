@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Dict, Optional, Union
 
-from gotrue import (
+from supabase_auth import (
     AsyncMemoryStorage,
     AsyncSupportedStorage,
     AuthFlowType,

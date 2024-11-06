@@ -2,8 +2,8 @@ import asyncio
 import re
 from typing import Any, Dict, List, Optional, Union
 
-from gotrue import AsyncMemoryStorage
-from gotrue.types import AuthChangeEvent, Session
+from supabase_auth import AsyncMemoryStorage
+from supabase_auth.types import AuthChangeEvent, Session
 from httpx import Timeout
 from postgrest import (
     AsyncPostgrestClient,
